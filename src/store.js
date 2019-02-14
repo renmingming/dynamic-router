@@ -5,10 +5,12 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-
+    antRouter: ''
   },
   mutations: {
-
+    setAntRouter(state, info){
+      state.antRouter = info
+    }
   },
   actions: {
 
